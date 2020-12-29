@@ -1,0 +1,4 @@
+create database mediumclone;
+create user mediumadmin with encrypted password 'medPass';
+grant all privileges on database mediumClone to mediumadmin;
+\c mediumclone;
